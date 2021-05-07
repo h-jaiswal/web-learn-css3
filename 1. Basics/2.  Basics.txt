@@ -1,0 +1,19 @@
+Three different ways of adding CSS3 to a HTML page.
+1. Inline CSS
+2. External CSS
+3. Internal CSS
+
+a> A CSS rule is CSS_Property : value pair where the CSS_Property specifies what need to be styled and the value specifies how it needs to be styled.
+example,  background: red;
+    
+b> A color can be represented by its general name (example, red) or by its hex value (example #ff1b68)
+
+I - Inline CSS - 
+Almost all HTML5 attributes have a style attribute which is to apply inline CSS directly to the HTML5 element. CSS rules are put inside of the style attribute value and are separated by a semi-colon.     
+Inline CSS is hard to read and debug.
+
+II - Internal CSS 
+A HTML5 webpage can be uniquely styled using Internal CSS. It is added as content of style element which is in turn placed inside of the head element. Easy to read and maybe debug.
+
+III - External CSS
+CSS style of entire website can be managed and maintained easily using external CSS. Easy to read and debug.

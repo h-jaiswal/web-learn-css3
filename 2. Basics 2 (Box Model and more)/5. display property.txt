@@ -1,0 +1,27 @@
+In HTML we got inline and block level elements
+
+
+In layman terms, we can say the difference is that a block level element take full available width eg. p, h1-6, div, section, main, li, etc
+while inline element eg. <a></a> takes only that much width as required by its content (block level element take a new line vs inline element do not necessarily take a new line)
+
+
+We can set border for both inline/block level elements
+We can set padding, margin for block level elements only
+Apart from this we cannot set padding, margin for inline only elements 
+
+
+
+The
+display
+property allows us to change the behavior of an element to block or inline or inline-block or none
+
+
+
+display: none   takes the element out of the visible document flow but it is still present in the document DOM (Useful in JS things etc.)
+
+
+
+If we set
+display: inline-block
+then the element as much width as required for its content like inline element but at the same time we can set padding, margin like block level element
+

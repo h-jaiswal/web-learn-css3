@@ -1,0 +1,27 @@
+Cascading - Multiple CSS rules can apply to same element(s)
+          - properties are overridden based on following criteria of specificity
+
+Specificity - 
+Resolve conflicts that arise from multiple CSS rules being applied to same element(s)
+
+Decreasing order of Specificity - 
+for styles being applied to an element, we have :-
+
+any inline style 
+> 
+#id selector 
+> 
+.class selector :pseudo_class selector [attribute] selector 
+>
+element/tag selector, ::pseudo_element selector
+>
+universal selector (*)
+>
+user agent stylesheet
+> 
+inherit styles
+
+
+NOTE: Within same selector priority, the selector which comes later cascades/override the rule applied before.
+
+NOTE: TODO: QUESTION: * > useragent stylesheet 

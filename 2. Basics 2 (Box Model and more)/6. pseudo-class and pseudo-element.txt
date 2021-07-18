@@ -1,0 +1,9 @@
+There are many pseudo classes we can apply to style different dynamic states of an element
+
+eg
+
+An index of standard pseudo-classes and pseudo-elements on the MDN website
+
+:pseudo class allows to define the style of a special state of an element (eg. :focus, :hover, :active) or allows to be more precise on what to select (eg. :first-child, :first-of-type)
+
+::pseudo-element allows to define the style a specific part of an element (eg. ::first-letter, ::after, ::before)

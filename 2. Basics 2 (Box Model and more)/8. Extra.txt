@@ -1,0 +1,40 @@
+Their is one more way to be more precise about targeting an element
+
+suppose an anchor element have a class="active" 
+
+then we can target only all anchor elements with active class by writing ->
+a.active {
+
+}
+
+
+
+
+:not() pseudo clas ->
+
+also, we can target only all anchor elements NOT having active class by writing ->
+
+not(a.active) {
+
+}
+
+more on not()
+
+all element except h1
+not( h1 )  {
+
+}
+
+etc.
+
+
+Class selector VS ID selector
+
+Class selector are reusable in a webpage and therefore can be used to target multiple elements. These allows us to "mark" and name things for styling purposes only. (eg. main-header, section-header, main-nav__item). Most frequently used selectors
+
+ID selector only used once per webpage and therefore can be used to target a single element only. Apart from CSS, ID can be used for on-page linking (HTML). (linking to element on same webpage, gives scroll effect to reach that element)
+
+
+
+
+

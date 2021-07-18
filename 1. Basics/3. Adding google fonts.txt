@@ -1,0 +1,32 @@
+In every browser, we can go to browser preferences and change the default preferences for fonts, etc.
+
+Some basics font families are sans-serif, serif and monospace.
+
+
+Change font family in CSS
+
+In CSS- 
+
+Google fonts is a third party font provider ( and other things as well aka icons )
+
+1. Go to Google Fonts
+2. Select a font
+3. Copy its link and add it inside of the head element
+example 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+NOTE - In step 3, these link element should be present before the link element for external CSS, so it will be loaded before CSS and be available for use. 
+
+NOTE - what is rel = "preconnect" ?
+The preconnect keyword for the rel attribute of the <link> element is a hint to browsers that the user is likely to need resources from the target resource's origin, and therefore the browser can likely improve the user experience by preemptively initiating a connection to that origin.
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/preconnect
+
+NOTE: TODO : earlier there was only one link element required, what changed? GOOGLE
+
+4. add its font family in CSS in the desired selector
+example   h1 {
+    font-family: 'Oswald', sans-serif;
+}
+

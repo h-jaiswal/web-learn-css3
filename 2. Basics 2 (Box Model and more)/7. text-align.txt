@@ -1,0 +1,4 @@
+inline element and block elements with 100% width can be aligned center, etc by using the text-align property in the parent element.
+
+block element with not 100% width can be aligned by targeting their margin property and setting it to auto, eg margin: 0  auto; align to horizontal middle
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uHost</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <!-- Internal CSS example
+        <style>
+            section {
+                background: #ff1b68;
+            }
+        </style> 
+    -->
+
+    <!-- 
+        External CSS example
+        <link rel="stylesheet" href="./style.css">
+     -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    
+    <!-- 
+        IMP:
+        We have to include alternative font weight (here 700) to use different font-weight (here, font-weight: bold is being used in main_header__brand)
+     -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 
+        Emmet shortcuts
+        1. Ctrl + / for comment
+        2. main>section>h1 for below structure
+     -->
+    <!-- 
+        There can be more than one header in a webpage for example a section header etc
+        To target a header we therefore may not use element selector instead what we can do is to use a class selector for example main-header would be nice name to identify the main header of the webpage and section-header for header inside of section elements
+     -->
+    <header class="main-header">
+        <div class="main-header__brand">
+            <a href="index.html">uHost</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <!-- The class name is as per BEM standard/convention -->
+                <li class="main-nav__item">
+                    <a href="packages/index.html">Packages</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <!-- 
+                    cta = call to action 
+                 -->
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- 
+            Inline CSS example
+            <section style="background: #ff1b68;"> 
+        -->
+
+        <!-- 
+            Multiple CSS classes to an element - We can add more than one class to an element  in the class attribute separated by a space.
+            example: <h1 class="c1 c2 c3"> </h1>
+
+            Classes can be reused with multiple elements
+            <h1 class="c1"> </h1>
+            <h2 class="c1"> </h2>
+
+            id is unique for each web page.
+        -->
+        <section id="product-overview">
+            <h1 class="product-title">Get the freedom you deserve</h1>
+        </section>
+        <section id="plans">
+            <h1 class="section-title">Choose your plan</h1>
+            <div>
+                <article class="plan">
+                    <h1>FREE</h1>
+                    <h2>$0/month</h2>
+                    <h3>For hobby, projects or small teams</h3>
+                    <ul>
+                        <li>1 Workspace</li>
+                        <li>Unlimited Traffic</li>
+                        <li>10GB Storage</li>
+                        <li>Basic Support</li>
+                    </ul>
+                    <div>
+                        <button>
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                </article>
+                <article class="plan plan--highlighted">
+                    <h1 class="plan__annotation">RECOMMENDED</h1>
+                    <h1>PLUS</h1>
+                    <h2>$29/month</h2>
+                    <h3>For ambitious projects</h3>
+                    <ul>
+                        <li>5 Workspaces</li>
+                        <li>Unlimited Traffic</li>
+                        <li>100GB Storage</li>
+                        <li>Plus Support</li>
+                    </ul>
+                    <div>
+                        <button>
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                </article>
+                <article class="plan">
+                    <h1>PREMIUM</h1>
+                    <h2>$99/month</h2>
+                    <h3>For enterprise solutions</h3>
+                    <ul>
+                        <li>10 Workspaces</li>
+                        <li>Unlimited Traffic</li>
+                        <li>Unlimited Storage</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <div>
+                        <button>
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

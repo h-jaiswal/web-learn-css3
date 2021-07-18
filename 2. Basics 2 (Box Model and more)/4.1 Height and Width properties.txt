@@ -1,0 +1,23 @@
+# NOTE TODO THIS IS AS VAGUE AS IT GETS. NEED TO IMPOVE THIS width height notes ASAP !
+
+We can set a width and a height property to html elements
+
+
+Block level elements like section, div, h1-6, p etc take all available width by default
+Unlike Inline level elements eg. a element.
+
+Applying 
+width: 100% 
+to a block level element is kind of meaningless due to its default width behavior as discussed
+
+width/height value can either be in % or px etc.
+
+
+% values refer to the width/height given/made available by the parent element
+
+width: 50% refers to 50% of height available given by the parent element
+
+height: 100% refers to all available height given by the parent element. The catch is the height of the content area remains only as big as its content needs it to be
+
+
+explicit values in px or em or etc will set the width/height to that value irrespective of the width/height of the parent element

@@ -1,0 +1,14 @@
+inheritance - means an elements also inherit some styles from the parent (direct or indirect parent) element
+
+inheritance has very low specificity. even below the user agent style.
+
+ex. Global styles for the whole webpage or a part of the webpage structure
+
+ex. applying global font (same font for all)
+    to apply this we can use * or body ?
+    Using * selector for applying global styles is not a good idea as 1. it is inefficient in the ways CSS rules are applied 2. it has lower priority
+    Using body element selector is preferred in such case.
+    
+We can increase the specificity of an inheritance for a property in an element by setting its value to inherit
+
+NOTE: inheritance doesn't always work. try and master when it does by practicing

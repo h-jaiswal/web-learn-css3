@@ -1,0 +1,26 @@
+Setting margin of body element to 0
+
+body {
+    margin: 0;
+}
+
+# NOTE : Margins of other element inside of body element do not get set to 0 due to inheritance because user-agent stylesheet sets default values for these properties and it has higher specificity than inheritance
+
+
+
+Now,
+All element have default margins from user agent stylesheet
+
+We can reset margin/padding/border of all elements using * selector as below
+* {
+    margin: 0;
+}
+
+
+
+Margin collapse
+If you got two block elements next to each other, then margins of both elements on sides facing each other. Bigger margin wins Margin Collapse.
+
+Try setting only either margin-top or margin-bottom all over the elements in a webpage if you worry too much about margin collapse.
+
+

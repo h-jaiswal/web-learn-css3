@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            
+            body {
+                margin: 0;
+            }
+            .box {
+                /* Remove padding, border, margin
+                Add padding only,
+                Add padding and border,
+                Add padding, border, and margin
+                NOTICE how area for CONTENT decrease/increase/remain same */
+                
+                padding: 20px;
+                border: 5px black solid;
+                margin: 10px;
+                background-color: #dd1b68;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>This is the content. h1 is a block level element.</h1>
+        <p>This is a paragraph</p>
+
+        <h1 class="box">This is the content. h1 is a block level element.</h1>
+
+        <section>
+            <p>Para 1 lorem lorem la ra em</p>
+            <p>Para 2 lorem lorem la ra em</p>
+        </section>
+
+        <section class="box">
+            <p>Para 1 lorem lorem la ra em</p>
+            <p>Para 2 lorem lorem la ra em</p>
+        </section>
+
+        <section class="box">
+            <p class="box">Para 1 lorem lorem la ra em</p>
+            <p class="box">Para 2 lorem lorem la ra em</p>
+        </section>
+    </body>
+</html>

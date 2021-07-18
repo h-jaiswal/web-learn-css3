@@ -1,0 +1,4 @@
+Combinators create higher specificity than just the sole selector
+
+example #product-overview h1 {} has more specificity than just h1 {}
+

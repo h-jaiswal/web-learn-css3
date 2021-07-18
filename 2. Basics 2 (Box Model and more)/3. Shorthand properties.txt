@@ -1,0 +1,44 @@
+border:
+
+border-width: 2px;
+border-style: dashed | solid;
+border: orange
+
+it's shorthand will be
+
+border: 2px dashed orange;
+
+
+
+
+margin:
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 5px;
+margin-left: 10px;
+
+top right bottom left (TR BL)
+
+its shorthand will be
+
+margin: 5px 10px 5px 10px;
+
+also, we have
+
+margin: top_bottom left_right;
+eg.
+margin: 5px 10px;
+
+also, we have
+
+margin: all_four_sides_equal;
+eg.
+margin: 10px;
+
+
+
+
+
+
+
+

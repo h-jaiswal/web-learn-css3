@@ -1,0 +1,8 @@
+font-family property is allows to change how the font looks like
+
+sans-serif, serif are one of the default font families already available
+To use a particular font family, it should be available or made available (by us) in the client machine on which the webpage is being accessed.
+Third party font provider allows for us to make any font=-family (externally imported font) available on client browsers
+
+color property allows to set the font color to any value by color name or by using color hex code
+

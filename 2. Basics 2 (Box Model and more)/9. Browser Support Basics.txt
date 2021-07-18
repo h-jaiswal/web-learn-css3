@@ -1,0 +1,11 @@
+Not all CSS properties are supported by all browsers.
+
+For each property or selector we can find corresponding MDN webpage which includes details on Browser Compatibility
+
+
+
+
+Apart from that, 
+
+Can I use .com website is a handing source for Browser Compatibility check and a % target audience that would benefit from using the feature you intend
+

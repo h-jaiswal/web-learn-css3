@@ -1,0 +1,21 @@
+Every element in HTML is interpreted as a box (with four layers) in CSS
+
+This concept is called Box Model
+
+Box Model -
+
+innermost we have CONENT surrounded by PADDING which is surrounded by BORDER and outermost we have the MARGIN layer
+
+CONENT < PADDING < BORDER < MARGIN
+
+CONENT can be text/image/video/audio etc
+
+
+PADDING is the space between border and CONENT
+
+MARGIN is the space outside BORDER
+
+Increasing the PADDING, BORDER, MARGIN will decrease the amount for CONENT
+
+i.e if you Increase the PADDING or BORDER or MARGIN then it is increased in the inwards
+

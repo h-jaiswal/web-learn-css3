@@ -1,0 +1,60 @@
+All element have a default behavior - a way to caluclate its height and width - this is called content box
+
+
+
+Content box is maintained by box-sizing property
+
+
+
+box-sizing: content-box
+box-sizing: border-box
+box-sizing: unset
+box-sizing: inherit
+box-sizing: initial
+
+
+
+margin is never include in the calculation
+
+
+box-sizing: border-box
+means
+the calculation of width and height
+will include
+content + padding + border
+
+
+
+box-sizing: content-box
+means
+the calculation of width and height
+will include
+content only
+
+
+
+NOTE - box-sizing: border-box is very common and widely used
+
+So generally, 
+
+we set 
+
+* {
+    box-sizing: border-box;
+}
+
+in our CSS files
+
+
+
+NOTE : IMP
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+- as margin is NOT included in the calculation
+- We generally exclude the value of margins 
+- for example if we want the element box to have w width and h height and box-sizing: border-box is set
+- and margin is mt ml mr of top left and right
+- we can set
+- height: (h-mt)
+- width: (w-ml-mr)
+- A NOTE: Please keep a note of margin-collapse scenario in this calculation
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
